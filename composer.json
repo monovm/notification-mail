@@ -1,5 +1,5 @@
 {
-    "name": "abuseio/notification-mail",
+    "name": "monovm/notification-mail",
     "description": "Repository for the AbuseIO notifications that handles outgoing e-mail",
     "version": "5.0.2",
     "keywords": ["laravel", "abuseio", "notification", "mail"],
@@ -23,11 +23,11 @@
     },
     "require": {
         "php": ">=8.4.0",
-        "abuseio/notification-common": "5.0.* || dev-master"
+        "monovm/notification-common": "5.0.* || dev-master"
     },
     "autoload": {
         "psr-4": {
-            "AbuseIO\\Parser\\Notifications\\": "src/"
+            "AbuseIO\\Notification\\": "src/"
         }
     }
 }
