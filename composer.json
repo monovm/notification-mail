@@ -22,7 +22,7 @@
     },
     "require": {
         "php": ">=8.4.0",
-        "monovm/notification-common": "5.0.* || dev-master"
+        "monovm/notification-common": "^5.0 || dev-master"
     },
     "autoload": {
         "psr-4": {
