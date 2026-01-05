@@ -417,7 +417,6 @@ class Mail extends Notification
             'ABUSE'      => 'medium',
             'ESCALATION' => 'high',
         ];
-        echo $ticket->class;
         $impact->setAttributes(
             [
                 'type'     => 'ext-value',
