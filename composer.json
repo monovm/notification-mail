@@ -1,7 +1,6 @@
 {
     "name": "monovm/notification-mail",
     "description": "Repository for the AbuseIO notifications that handles outgoing e-mail",
-    "version": "5.0.2",
     "keywords": ["laravel", "abuseio", "notification", "mail"],
     "homepage": "http://abuse.io",
     "type": "library",
